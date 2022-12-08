@@ -6,11 +6,20 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: url(web/Main2.png);
+    background-image: url(web/Main1.png);
     background-color: rgba(6, 6, 72);
     background-position: center;
+    border: 5px solid rgba(13, 35, 94, 0.344);
     background-size: cover;
     position: relative;
+    height: 20em;
+    list-style: none;
+    flex: 1;
+    display: inline-block;
+    padding: 8px 30px;
+    text-align: right;
+    position: relative;
+
 }
 
 nav{
@@ -18,4 +27,12 @@ nav{
     padding: 2% 6%;
     justify-content: space-between;
     align-items: top;
+}
+
+.body{
+    padding-left: 20px;
+}
+
+.Header{
+    padding: 10px 30px 10px;
 }
