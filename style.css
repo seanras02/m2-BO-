@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding:0;
+    box-sizing: border-box;
+
 }
 
 .header{
@@ -9,7 +11,6 @@
     background-image: url(web/Main1.png);
     background-color: rgba(6, 6, 72);
     background-position: center;
-    border: 5px solid rgba(13, 35, 94, 0.344);
     background-size: cover;
     position: relative;
     height: 20em;
@@ -23,10 +24,10 @@
 }
 
 nav{
-    display: flex;
-    padding: 2% 6%;
+    display:block;
+    padding: 3% 6%;
     justify-content: space-between;
-    align-items: top;
+    align-items: center;
 }
 
 .body{
@@ -35,4 +36,33 @@ nav{
 
 .Header{
     padding: 10px 30px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.links{
+    flex: 1;
+    text-align: right;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 1px 1px;
+    display: inline-block;
+    cursor: pointer;
+    transition: 0.2s transform;
+
+}
+
+.links li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    background-color: white;
+}
+
+.links li:hover{
+    color: aliceblue;
+    border: 20px;
 }
