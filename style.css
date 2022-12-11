@@ -5,7 +5,7 @@
 
 }
 
-.header{
+.mid-part{
     min-height: 100vh;
     width: 100%;
     background-image: url(web/Main1.png);
@@ -20,6 +20,28 @@
     padding: 8px 30px;
     text-align: right;
     position: relative;
+
+}
+
+button{
+    margin: auto;
+    padding: 7%;
+    width: 30%;
+    background-color: rgb(37, 14, 59);
+    border: 2px solid white;
+    color: rgb(252, 246, 246);
+    border-radius: 10px;
+    background-size: cover;
+    font-family: serif;
+    font-style: italic;
+}
+
+button:hover{
+    cursor:pointer;
+    transform: scale(1.05);
+    transition: 0.2s transform;
+    border-radius: 10px;
+
 
 }
 
@@ -65,4 +87,9 @@ nav{
 .links li:hover{
     color: aliceblue;
     border: 20px;
+}
+
+.footer{
+
+    background-color: rgb(46, 43, 43);
 }
