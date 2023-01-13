@@ -104,6 +104,16 @@ header a img:hover{
     padding-left: 20px;
 }
 
+.mid-part .container{
+    background-color: bisque;
+    border-radius: 2px;
+    max-width: 25%;
+    height: 25%;
+}
+.mid-part article p{
+    text-align: center;
+}
+
 .mid-part{
     min-height: 100vh;
     width: 100%;
