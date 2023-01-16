@@ -61,6 +61,17 @@ header a img:hover{
     border-radius: 10px;
 }
 
+.locbutton{
+    background-color: white;
+    padding: 2% 5%;
+    text-decoration: none;
+    border-radius: 10px; 
+}
+
+.locbutton:hover{
+    background-color: rgb(200, 70, 70);
+}
+
 .opbutton:hover{
     background-color: rgb(200, 70, 70);
 }
@@ -90,25 +101,33 @@ header a img:hover{
     margin: 1%;
     text-align: center;
     display:contents;
+    width: 25%;
+    height: 25%;
 }
 
-.Header{
+header{
     padding: 20px 30px 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color: #101010;
 
 }
 
 .body{
-    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 .mid-part .container{
-    background-color: bisque;
-    border-radius: 2px;
-    max-width: 25%;
+    background: bisque;
+    border-radius: 8px;
+    width: 25%;
     height: 25%;
+    margin-left: 38%;
+    margin-top: 18%;
 }
 .mid-part article p{
     text-align: center;
