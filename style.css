@@ -1,139 +1,24 @@
-
 *{
     margin: 0;
-    padding-right: 0;
-    box-sizing: border-box;
-    font: 100px;
-}
-
-header a img{
-    width: 30%;
-}
-
-header a img:hover{
-    cursor:pointer;
-    transform: scale(1.05);
-    transition: 0.2s transform;
-    border-radius: 10px;
-    box-shadow: 20px 20px 20px rgb(0, 0, 0);
-}
-
-.langbutton{
-    background-color: white;
-    padding: 2% 5%;
+    padding: 0;
+    list-style: none;
     text-decoration: none;
-    border-radius: 10px;
+    font-family: 'Chakra Petch', sans-serif;
 }
 
-.gesbutton{
-    background-color:white;
-    padding: 2% 5%;
-    text-decoration: none;
-    border-radius: 10px;  
+
+.logo{
+    float: left;
+    width: 10%;
+    height: 10%;
+    position: absolute;
 }
 
-.toebutton{
-    background-color:white;
-    padding: 2% 5%;
-    text-decoration: none;
-    border-radius: 10px;  
+nav > ul > li{
+    float: right;
 }
 
-.belbutton{
-    background-color:white;
-    padding: 2% 5%;
-    text-decoration: none;
-    border-radius: 10px;
-     
-}
-
-.tickbutton{
-    background-color: white;
-    padding: 2% 5%;
-    text-decoration: none;
-    border-radius: 10px;
-}
-
-.opbutton{
-    background-color: white;
-    padding: 2% 5%;
-    text-decoration: none;
-    border-radius: 10px;
-}
-
-.locbutton{
-    background-color: white;
-    padding: 2% 5%;
-    text-decoration: none;
-    border-radius: 10px; 
-}
-
-.locbutton:hover{
-    background-color: rgb(200, 70, 70);
-}
-
-.opbutton:hover{
-    background-color: rgb(200, 70, 70);
-}
-
-.langbutton:hover{
-    background-color: rgb(200, 70, 70);
-}
-
-.tickbutton:hover{
-    background-color: rgb(200, 70, 70);
-}
-
-.gesbutton:hover{
-    background-color: rgb(200, 70, 70);
-}
-
-.toebutton:hover{
-    background-color: rgb(200, 70, 70);
-}
-
-.belbutton:hover{
-    background-color: rgb(200, 70, 70);
-}
-
-.links{
-    text-align: right;
-    margin: 1%;
-    text-align: center;
-    display:contents;
-    width: 25%;
-    height: 25%;
-}
-
-header{
-    padding: 20px 30px 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: #101010;
-
-}
-
-.body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-}
-
-.mid-part .container{
-    background: bisque;
-    border-radius: 8px;
-    width: 25%;
-    height: 25%;
-    margin-left: 38%;
-    margin-top: 18%;
-}
-.mid-part article p{
-    text-align: center;
-}
-
-.mid-part{
+section{
     min-height: 100vh;
     width: 100%;
     background-image: url(web/Main2.png);
@@ -147,20 +32,50 @@ header{
     text-align: right;
 }
 
-.footer{
-    color: white;
-    letter-spacing: 0.2em;
+section > article{
+    margin: 25% 25% 25% 25%;
+    background-color: antiquewhite;
     text-align: center;
 }
 
-.twi{
-    margin: 0px 0px 0px 70%;
+
+footer, header{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
 }
 
-h4{
+footer > h4{
+    border-bottom: 10px rebeccapurple;
     font-size: 150%;
     margin-bottom: 20px;
-    border-bottom: 1px solid white;
-    margin-left: 40%;
-    margin-right: 40%;
+}
+
+.mini_logo{
+    
+}
+
+
+.container_con{
+    color: aliceblue;
+    border-left: 20px;
+    text-align: center;
+    width: 25%;
+    font-size: 150%;
+}
+
+
+.container_op{
+    color: aliceblue;
+    border-left: 20px;
+    text-align: center;
+    width: 25%;
+}
+
+.container_map{
+    background-color: blue;
+    color: aliceblue;
+    border-left: 20px;
+    text-align: center;
+    width: 25%;
 }
