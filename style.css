@@ -21,12 +21,34 @@ nav > ul{
     align-items: center;
     justify-content: space-evenly;
     gap: 20px;
+
+}
+
+nav > ul > li{
+    border-radius: 20px;
+    width: 10%;
+    height: 10%;
+}
+
+nav > ul > li:hover{
+    cursor: pointer;
+
+    
 }
 
 nav > ul > li > a{
     line-height: 100px;
-    color: black;
-    background-color: white
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+
+    height: 100%;
+    width: 100%;
+    display: block;
+    text-align: center;
+    line-height: 60px;
+    text-decoration: none;
+    color: whitesmoke;
 }
 
 
@@ -39,7 +61,7 @@ nav > ul > li > a{
 
 
 .container_review{
-    background-color:red;
+    margin: 0 auto;
     
 }
 
@@ -53,15 +75,12 @@ nav > ul > li > a{
 
 
 section{
-    min-height: 100vh;
-    width: 100%;
-    background-image: url(web/Main2.png);
+     background-image: url(web/Main2.png);
     background-position: center;
     background-size: cover;
     position: relative;
     list-style: none;
     flex: 1;
-    display: inline-block;
     padding: 8px 30px;
     text-align: right;
 }
@@ -70,8 +89,11 @@ section > article{
     margin: 15% 35% 15% 28%;
     background-color: antiquewhite;
     text-align: center;
+}
 
-
+section > article > a{
+    color: black;
+    font-style: none;
 }
 
 
