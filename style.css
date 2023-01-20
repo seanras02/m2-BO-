@@ -40,6 +40,7 @@ nav > ul > li > a{
 
 .container_review{
     background-color:red;
+    
 }
 
 
@@ -187,13 +188,13 @@ footer > h4{
     border-left: 20px;
     text-align: center;
     width: 25%;
-    font-size: 150%;
     margin: 30px 10px 10px 30px;
 }
 
 .container_con > h4{
     margin-bottom: 50px;
     border-bottom: 20px white;
+    font-size: 150%;
 }
 
 .mini_logo{
