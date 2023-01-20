@@ -16,6 +16,21 @@ nav{
     background-color: black;
 }
 
+nav > ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+nav > ul > li > a{
+    line-height: 100px;
+    color: black;
+    background-color: white
+}
+
+
+
 .logo{
     width: 10%;
     height: 10%;
@@ -23,9 +38,18 @@ nav{
 }
 
 
-nav > ul > li{
-    float: right;
+.container_review{
+    background-color:red;
 }
+
+
+
+
+
+/*Sections*/
+
+
+
 
 section{
     min-height: 100vh;
@@ -42,11 +66,102 @@ section{
 }
 
 section > article{
-    margin: 25% 25% 25% 25%;
+    margin: 15% 35% 15% 28%;
     background-color: antiquewhite;
     text-align: center;
+
+
 }
 
+
+
+/*Foto Slider*/
+
+
+section > .foto_slider{
+    width: 800px;
+    height: 600px;
+    background-size: cover;
+
+    border-radius: 20px;
+    animation-name: fotoslider;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    border: 2px whitesmoke;
+    color: azure;
+}
+
+
+
+@keyframes fotoslider {
+    0%{
+        opacity: 0;
+        background-image: url(web/haram.png);
+    }
+
+    12.5%{
+        opacity: 1;
+        background-image: url(web/vibe2.png);
+    }
+    24%{
+        opacity: 0;
+        background-image: url(web/vibe2.png);
+    }
+
+    25%{
+        opacity: 0;
+        background-image: url(web/vibe2.png);
+    }
+    37.5%{
+        opacity: 1;
+        background-image: url(web/vibe2.png);
+    }
+    49%{
+        opacity: 0;
+        background-image: url(web/vibe2.png);
+    }
+
+    50%{
+        opacity: 0;
+        background-image: url(web/vibe1.png);
+    }
+
+    62.5%{
+        opacity: 1;
+        background-image: url(web/vibe1.png);
+    }
+    74%{
+        opacity: 0;
+        background-image: url(web/vibe1.png);
+    }
+
+    75%{
+        opacity: 0;
+        background-image: url(web/Main1.png);
+    }
+    87%{
+        opacity: 1;
+        background-image: url(web/Main1.png);
+    }
+
+    99%{
+        opacity: 0;
+        background-image: url(web/Main1.png);
+    }
+
+    100%{
+        opacity: 1;
+        background-image: url(web/game.JPG);
+    }
+}
+
+
+
+
+
+
+
+/*Footer*/
 
 footer{
     display: flex;
@@ -60,10 +175,12 @@ footer > h4{
     margin-bottom: 20px;
 }
 
-.mini_logo{
-    
-}
 
+
+
+
+
+/*Containers footer*/
 
 .container_con{
     color: aliceblue;
@@ -71,6 +188,16 @@ footer > h4{
     text-align: center;
     width: 25%;
     font-size: 150%;
+    margin: 30px 10px 10px 30px;
+}
+
+.container_con > h4{
+    margin-bottom: 50px;
+    border-bottom: 20px white;
+}
+
+.mini_logo{
+    margin-top: 50px;
 }
 
 
@@ -79,12 +206,27 @@ footer > h4{
     border-left: 20px;
     text-align: center;
     width: 25%;
+    margin: 20px 0px 20px 0px
+}
+
+.container_op > h4{
+    margin-bottom: 20px;
+    font-size: 150%;
 }
 
 .container_map{
-    background-color: blue;
     color: aliceblue;
     border-left: 20px;
     text-align: center;
-    width: 25%;
+    width: 40%;
+    margin: 30px 10px 10px 30px;
+}
+
+.container_map > h4{
+    margin-bottom: 20px;
+    font-size: 150%;
+}
+
+.container_map > iframe{
+    border-radius: 20px;
 }
