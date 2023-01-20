@@ -6,16 +6,22 @@
     font-family: 'Chakra Petch', sans-serif;
 }
 
-.container_logo{
-    
+header{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+nav{
+    background-color: black;
 }
 
 .logo{
-    float: left;
     width: 10%;
     height: 10%;
-    position: absolute;
+    margin: 10px 10px 10px 10px;
 }
+
 
 nav > ul > li{
     float: right;
@@ -42,7 +48,7 @@ section > article{
 }
 
 
-footer, header{
+footer{
     display: flex;
     background-color: black;
     justify-content: space-between;
