@@ -97,6 +97,10 @@ section > article > a{
     font-style: none;
 }
 
+section > .container_foto{
+    background-color: bisque;
+}
+
 
 
 /*Foto Slider*/
@@ -113,7 +117,6 @@ section > .foto_slider{
     animation-iteration-count: infinite;
     border: 5px solid whitesmoke;
     color: azure;
-    background-color: blanchedalmond;
 }
 
 
@@ -175,7 +178,16 @@ section > .foto_slider{
     }
 
     100%{
+        opacity: 0;
+        background-image: url(web/game.JPG);
+    }
+    112.5%{
         opacity: 1;
+        background-image: url(web/game.JPG);
+    }
+
+    124%{
+        opacity: 0;
         background-image: url(web/game.JPG);
     }
 }
