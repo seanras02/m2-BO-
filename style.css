@@ -85,6 +85,7 @@ section{
     text-align: right;
 }
 
+
 section > article{
     margin: 15% 35% 15% 28%;
     background-color: antiquewhite;
@@ -110,8 +111,9 @@ section > .foto_slider{
     animation-name: fotoslider;
     animation-duration: 20s;
     animation-iteration-count: infinite;
-    border: 2px whitesmoke;
+    border: 5px solid whitesmoke;
     color: azure;
+    background-color: blanchedalmond;
 }
 
 
@@ -124,11 +126,11 @@ section > .foto_slider{
 
     12.5%{
         opacity: 1;
-        background-image: url(web/vibe2.png);
+        background-image: url(web/haram.png);
     }
     24%{
         opacity: 0;
-        background-image: url(web/vibe2.png);
+        background-image: url(web/haram.png);
     }
 
     25%{
