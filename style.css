@@ -90,6 +90,7 @@ section > article{
     margin: 15% 35% 15% 28%;
     background-color: antiquewhite;
     text-align: center;
+    padding: 10px;
 }
 
 section > .intro{
@@ -99,6 +100,7 @@ section > .intro{
 section > article > a{
     color: black;
     font-style: none;
+    padding: 10px;
 }
 
 section > .container_foto{
@@ -260,7 +262,7 @@ footer > h4{
 
 .container_op > h4{
     margin-bottom: 20px;
-    font-size: 125%;
+    font-size: 150%;
 }
 
 .container_op > p{
