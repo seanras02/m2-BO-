@@ -75,7 +75,7 @@ nav > ul > li > a{
 
 
 section{
-     background-image: url(web/Main2.png);
+    background-image: url(web/Main2.png);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -90,6 +90,10 @@ section > article{
     margin: 15% 35% 15% 28%;
     background-color: antiquewhite;
     text-align: center;
+}
+
+section > .intro{
+    
 }
 
 section > article > a{
@@ -233,6 +237,14 @@ footer > h4{
     font-size: 150%;
 }
 
+.container_con > p{
+    font-size: 150%;
+}
+
+.container_con > a{
+    font-size: 150%;
+}
+
 .mini_logo{
     margin-top: 50px;
 }
@@ -243,12 +255,16 @@ footer > h4{
     border-left: 20px;
     text-align: center;
     width: 25%;
-    margin: 20px 0px 20px 0px
+    margin: 30px 0px 10px 115px;
 }
 
 .container_op > h4{
     margin-bottom: 20px;
-    font-size: 150%;
+    font-size: 125%;
+}
+
+.container_op > p{
+    font-size: 115%;
 }
 
 .container_map{
