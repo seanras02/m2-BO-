@@ -107,9 +107,20 @@ section > .container_foto{
     background-color: bisque;
 }
 
+article h4{
+    font-size: 150%;
+}
+
+
+
 
 
 /*Foto Slider*/
+
+
+section > .intro {
+    font-size: 150%;
+}
 
 
 section > .foto_slider{
