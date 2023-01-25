@@ -1,24 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Document</title>
-   <link rel="stylesheet" href="style.css">
-</head>
-<body>
-   <div class="container">
-      <button type="button">Start Game</button>
-      <img src="pics/target.png" alt="" class='cursor'>
-      <img src="pics/duck.gif" alt="" class='duck'>
-      <img src="pics/blood.png" alt="" class='blood'>
-
-   </div>
-   
-   <audio class='shot' src="audio/gun-shot.mp3"></audio>
-   <audio class='point' src="audio/points.mp3"></audio>
-
-   <script src="script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>JS Pacman</title>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="game"></div>
+      <div id="score"></div>
+      <button id="start-button">Start Game</button>
+    </div>
+    <script src="./index.js"></script>
+  </body>
 </html>
