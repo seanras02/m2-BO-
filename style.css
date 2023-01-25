@@ -244,6 +244,9 @@ footer > h4{
 
 
 /*Containers footer*/
+.contact{
+    color: white;
+}
 
 .container_con{
     color: aliceblue;
