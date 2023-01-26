@@ -104,6 +104,18 @@ section > article > img{
     border-radius: 20px;
 }
 
+article > li > a{
+    background-image: linear-gradient(rgb(229, 195, 72), rgb(222, 213, 172));
+    color: black;
+    list-style: none;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+article > li {
+    padding: 30px;
+}
+
 section > .intro{
     padding: 10px;
 }
