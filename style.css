@@ -82,7 +82,7 @@ section{
     list-style: none;
     flex: 1;
     padding: 8px 30px;
-    text-align: right;
+
 }
 
 
@@ -113,6 +113,10 @@ article > button{
 
 }
 
+button > a{
+    
+}
+
 article > button:hover{
     cursor: pointer;
 
@@ -131,6 +135,8 @@ section > .container_foto{
 
 article h4{
     font-size: 150%;
+    padding: 20px;
+
 }
 
 article{
