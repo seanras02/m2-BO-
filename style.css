@@ -104,7 +104,7 @@ section > article > img{
     border-radius: 20px;
 }
 
-article > li > a{
+article > menu  > li > a{
     background-image: linear-gradient(rgb(229, 195, 72), rgb(222, 213, 172));
     color: black;
     list-style: none;
@@ -112,7 +112,7 @@ article > li > a{
     border-radius: 20px;
 }
 
-article > li {
+article > menu > li {
     padding: 30px;
 }
 
