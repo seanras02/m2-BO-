@@ -93,9 +93,31 @@ section > article{
     padding: 10px;
 }
 
-section > .intro{
-    
+section > article > img{
+    border-radius: 20px;
 }
+
+section > .intro{
+    padding: 10px;
+}
+
+article > button{
+    text-decoration: none;
+    color: black;
+    background-image: linear-gradient(rgb(229, 195, 72), rgb(222, 213, 172));
+    margin: 10px;
+    width: 50%;
+    border-radius: 20px;
+    padding: 30px;
+    font-family: 'Chakra Petch', sans-serif;
+
+}
+
+article > button:hover{
+    cursor: pointer;
+
+}
+
 
 section > article > a{
     color: black;
